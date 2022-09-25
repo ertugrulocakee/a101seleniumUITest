@@ -1,7 +1,6 @@
 package PageObjectModels;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.ElementClickInterceptedException;
 import org.openqa.selenium.WebDriver;
 
 
@@ -19,11 +18,7 @@ public class OrdersPageObjectModel extends  BasePageObjectModel{
     By districtList = By.xpath("/html/body/div[1]/div/div[2]/form/div[6]/label/div/select");
     By gurselOption = By.xpath("/html/body/div[1]/div/div[2]/form/div[6]/label/div/select/option[6]");
     By adressInput = By.xpath("/html/body/div[1]/div/div[2]/form/div[7]/label/textarea");
-    By saveAdressButton = By.xpath("/html/body/div[1]/div/div[2]/form/button[1]");
-
-    By updateAdressButton = By.xpath("/html/body/section/section/div/div[2]/div/div[1]/div/div[1]/div[2]/ul[1]/li/label/div[1]/a");
-
-    By closeAdressButton = By.xpath("/html/body/div[1]/div/div[2]/form/div[1]/div[1]/em[1]");
+    By saveAdressButton = new By.ByCssSelector("button.button.green.js-set-country.js-prevent-emoji");
 
     By saveAndMoveButton = By.xpath("/html/body/section/section/div/div[2]/div/div[1]/div/div[2]/form/div[2]/button");
 
@@ -71,7 +66,7 @@ public class OrdersPageObjectModel extends  BasePageObjectModel{
 
         shortStop();
 
-        findElement(adressInput).sendKeys(" - Gürsel Mahallesi - Kağıthane - İstanbul");
+        findElement(adressInput).sendKeys(" - Posta Kodu : 34400");
 
         shortStop();
 

@@ -211,3 +211,230 @@ Command: [a3e2ff17c858f29e70aa78e405c41c19, clickElement {id=6ffdd26e-7b01-45f1-
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60374}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60374/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
 Element: [[ChromeDriver: chrome on WINDOWS (a3e2ff17c858f29e70aa78e405c41c19)] -> xpath: /html/body/section/section/div/div[2]/div/div[1]/div/div[2]/form/div[2]/button]
 Session ID: a3e2ff17c858f29e70aa78e405c41c19 
+2022-09-25 22:22:28,170 INFO  [Log] openA101() is Successfull! 
+2022-09-25 22:22:33,853 INFO  [Log] socksPage() is Successfull! 
+2022-09-25 22:22:42,927 INFO  [Log] sockDetailPage() is Successfull! 
+2022-09-25 22:22:53,279 INFO  [Log] basketPage() is Successfull! 
+2022-09-25 22:22:56,533 INFO  [Log] loginPage() is Successfull! 
+2022-09-25 22:22:58,799 INFO  [Log] mailPage() is Successfull! 
+2022-09-25 22:23:00,843 ERROR [Log] ordersPage() is Fail! --- no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/section/section/div/div[2]/div/div[1]/div/div[1]/div[2]/ul[2]/li/a"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-I1ODVGB', ip: '192.168.1.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f17b7e55ea85da2ae458bff4384cb810, findElement {using=xpath, value=/html/body/section/section/div/div[2]/div/div[1]/div/div[1]/div[2]/ul[2]/li/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63082}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63082/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f17b7e55ea85da2ae458bff4384cb810 
+2022-09-25 22:23:53,591 INFO  [Log] openA101() is Successfull! 
+2022-09-25 22:23:58,525 INFO  [Log] socksPage() is Successfull! 
+2022-09-25 22:24:03,232 INFO  [Log] sockDetailPage() is Successfull! 
+2022-09-25 22:24:11,197 INFO  [Log] basketPage() is Successfull! 
+2022-09-25 22:24:14,330 INFO  [Log] loginPage() is Successfull! 
+2022-09-25 22:24:16,579 INFO  [Log] mailPage() is Successfull! 
+2022-09-25 22:24:37,863 ERROR [Log] ordersPage() is Fail! --- element click intercepted: Element <button type="submit" class="button block green js-proceed-button" data-index="1" disabled="">...</button> is not clickable at point (799, 222). Other element would receive the click: <input type="text" name="phone_number" class="js-phone-number" value="" aria-invalid="false">
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-I1ODVGB', ip: '192.168.1.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [68aaaca0f90448ac365220b4c0e0f544, clickElement {id=66b3d859-677f-45fc-a3b4-91b4ab7b7666}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63250}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63250/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (68aaaca0f90448ac365220b4c0e0f544)] -> xpath: /html/body/section/section/div/div[2]/div/div[1]/div/div[2]/form/div[2]/button]
+Session ID: 68aaaca0f90448ac365220b4c0e0f544 
+2022-09-25 22:30:22,738 INFO  [Log] openA101() is Successfull! 
+2022-09-25 22:30:26,628 INFO  [Log] socksPage() is Successfull! 
+2022-09-25 22:30:32,566 INFO  [Log] sockDetailPage() is Successfull! 
+2022-09-25 22:30:36,745 INFO  [Log] basketPage() is Successfull! 
+2022-09-25 22:30:39,982 INFO  [Log] loginPage() is Successfull! 
+2022-09-25 22:30:42,214 INFO  [Log] mailPage() is Successfull! 
+2022-09-25 22:31:13,343 ERROR [Log] ordersPage() is Fail! --- element click intercepted: Element <button type="submit" class="button block green js-proceed-button" data-index="1" disabled="">...</button> is not clickable at point (799, 222). Other element would receive the click: <input type="text" name="phone_number" class="js-phone-number" value="" aria-invalid="false">
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-I1ODVGB', ip: '192.168.1.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9b580575582ef3c7a03ebe3a428beb50, clickElement {id=258568f2-2f68-4e8d-a955-c7a01ba3fb1d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63615}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63615/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (9b580575582ef3c7a03ebe3a428beb50)] -> xpath: /html/body/section/section/div/div[2]/div/div[1]/div/div[2]/form/div[2]/button]
+Session ID: 9b580575582ef3c7a03ebe3a428beb50 
+2022-09-25 22:32:14,410 INFO  [Log] openA101() is Successfull! 
+2022-09-25 22:32:17,891 INFO  [Log] socksPage() is Successfull! 
+2022-09-25 22:32:21,508 INFO  [Log] sockDetailPage() is Successfull! 
+2022-09-25 22:32:27,326 INFO  [Log] basketPage() is Successfull! 
+2022-09-25 22:32:30,460 INFO  [Log] loginPage() is Successfull! 
+2022-09-25 22:32:32,713 INFO  [Log] mailPage() is Successfull! 
+2022-09-25 22:32:58,194 ERROR [Log] ordersPage() is Fail! --- element click intercepted: Element <button type="submit" class="button block green js-proceed-button" data-index="1" disabled="">...</button> is not clickable at point (799, 222). Other element would receive the click: <input type="text" name="phone_number" class="js-phone-number" value="" aria-invalid="false">
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-I1ODVGB', ip: '192.168.1.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f7dfd2bde6cf88c22da00912f1dd4534, clickElement {id=760e7df3-895f-402a-93e5-48c2e721ce28}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63795}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63795/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (f7dfd2bde6cf88c22da00912f1dd4534)] -> xpath: /html/body/section/section/div/div[2]/div/div[1]/div/div[2]/form/div[2]/button]
+Session ID: f7dfd2bde6cf88c22da00912f1dd4534 
+2022-09-25 22:34:02,065 ERROR [Log] openA101() is Fail! --- Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/section/section[1]/div/div/div/div[1]/div/div/ul/li[4]/div/div[2]/div/div/div[1]/ul[2]/li[8]/a (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-I1ODVGB', ip: '192.168.1.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63996}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63996/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ed1eba73ff5227d348b48f2f47284c10 
+2022-09-25 22:34:02,133 ERROR [Log] socksPage() is Fail! --- no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/section/section[4]/div[3]/div[2]/div/div[2]/div[2]/div/ul/li[1]/article/div/div[1]"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-I1ODVGB', ip: '192.168.1.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ed1eba73ff5227d348b48f2f47284c10, findElement {using=xpath, value=/html/body/section/section[4]/div[3]/div[2]/div/div[2]/div[2]/div/ul/li[1]/article/div/div[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63996}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63996/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ed1eba73ff5227d348b48f2f47284c10 
+2022-09-25 22:34:02,173 ERROR [Log] sockDetailPage() is Fail! --- no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/section/section[3]/div[2]/div[1]/div/div[3]/div[1]/div[1]/div[2]/div/div[2]/div/div[1]/span"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-I1ODVGB', ip: '192.168.1.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ed1eba73ff5227d348b48f2f47284c10, findElement {using=xpath, value=/html/body/section/section[3]/div[2]/div[1]/div/div[3]/div[1]/div[1]/div[2]/div/div[2]/div/div[1]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63996}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63996/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ed1eba73ff5227d348b48f2f47284c10 
+2022-09-25 22:34:02,294 ERROR [Log] basketPage() is Fail! --- no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/section/div[1]/div[2]/div/div[2]/div/a"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-I1ODVGB', ip: '192.168.1.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ed1eba73ff5227d348b48f2f47284c10, findElement {using=xpath, value=/html/body/section/div[1]/div[2]/div/div[2]/div/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63996}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63996/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ed1eba73ff5227d348b48f2f47284c10 
+2022-09-25 22:34:05,348 ERROR [Log] loginPage() is Fail! --- no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/section/div[1]/div/div[1]/div[1]/div[2]/a"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-I1ODVGB', ip: '192.168.1.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ed1eba73ff5227d348b48f2f47284c10, findElement {using=xpath, value=/html/body/section/div[1]/div/div[1]/div[1]/div[2]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63996}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63996/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ed1eba73ff5227d348b48f2f47284c10 
+2022-09-25 22:34:06,498 ERROR [Log] mailPage() is Fail! --- no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/section/div[1]/div/div[2]/div/div/form/div[1]/input"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-I1ODVGB', ip: '192.168.1.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ed1eba73ff5227d348b48f2f47284c10, findElement {using=xpath, value=/html/body/section/div[1]/div/div[2]/div/div/form/div[1]/input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63996}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63996/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ed1eba73ff5227d348b48f2f47284c10 
+2022-09-25 22:34:08,530 ERROR [Log] ordersPage() is Fail! --- no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/section/section/div/div[2]/div/div[1]/div/div[1]/div[2]/ul[2]/li/a"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-I1ODVGB', ip: '192.168.1.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ed1eba73ff5227d348b48f2f47284c10, findElement {using=xpath, value=/html/body/section/section/div/div[2]/div/div[1]/div/div[1]/div[2]/ul[2]/li/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63996}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63996/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ed1eba73ff5227d348b48f2f47284c10 
+2022-09-25 22:34:35,136 INFO  [Log] openA101() is Successfull! 
+2022-09-25 22:34:36,373 INFO  [Log] socksPage() is Successfull! 
+2022-09-25 22:34:41,081 INFO  [Log] sockDetailPage() is Successfull! 
+2022-09-25 22:34:43,465 INFO  [Log] basketPage() is Successfull! 
+2022-09-25 22:34:47,380 INFO  [Log] loginPage() is Successfull! 
+2022-09-25 22:34:49,647 INFO  [Log] mailPage() is Successfull! 
+2022-09-25 22:35:18,610 INFO  [Log] ordersPage() is Successfull! 
+2022-09-25 22:39:58,345 ERROR [Log] openA101() is Fail! --- no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/section/section[1]/div/div/div/div[1]/div/div/ul/li[4]/a"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-I1ODVGB', ip: '192.168.1.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [87cbb6a27f16cd11a987dd5ada96a892, findElement {using=xpath, value=/html/body/section/section[1]/div/div/div/div[1]/div/div/ul/li[4]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64265}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64265/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 87cbb6a27f16cd11a987dd5ada96a892 
+2022-09-25 22:39:58,383 ERROR [Log] socksPage() is Fail! --- no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/section/section[4]/div[3]/div[2]/div/div[2]/div[2]/div/ul/li[1]/article/div/div[1]"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-I1ODVGB', ip: '192.168.1.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [87cbb6a27f16cd11a987dd5ada96a892, findElement {using=xpath, value=/html/body/section/section[4]/div[3]/div[2]/div/div[2]/div[2]/div/ul/li[1]/article/div/div[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64265}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64265/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 87cbb6a27f16cd11a987dd5ada96a892 
+2022-09-25 22:39:58,578 ERROR [Log] sockDetailPage() is Fail! --- no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/section/section[3]/div[2]/div[1]/div/div[3]/div[1]/div[1]/div[2]/div/div[2]/div/div[1]/span"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-I1ODVGB', ip: '192.168.1.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [87cbb6a27f16cd11a987dd5ada96a892, findElement {using=xpath, value=/html/body/section/section[3]/div[2]/div[1]/div/div[3]/div[1]/div[1]/div[2]/div/div[2]/div/div[1]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64265}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64265/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 87cbb6a27f16cd11a987dd5ada96a892 
+2022-09-25 22:39:58,710 ERROR [Log] basketPage() is Fail! --- no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/section/div[1]/div[2]/div/div[2]/div/a"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-I1ODVGB', ip: '192.168.1.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [87cbb6a27f16cd11a987dd5ada96a892, findElement {using=xpath, value=/html/body/section/div[1]/div[2]/div/div[2]/div/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64265}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64265/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 87cbb6a27f16cd11a987dd5ada96a892 
+2022-09-25 22:40:01,760 ERROR [Log] loginPage() is Fail! --- no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/section/div[1]/div/div[1]/div[1]/div[2]/a"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-I1ODVGB', ip: '192.168.1.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [87cbb6a27f16cd11a987dd5ada96a892, findElement {using=xpath, value=/html/body/section/div[1]/div/div[1]/div[1]/div[2]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64265}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64265/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 87cbb6a27f16cd11a987dd5ada96a892 
+2022-09-25 22:40:02,794 ERROR [Log] mailPage() is Fail! --- no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/section/div[1]/div/div[2]/div/div/form/div[1]/input"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-I1ODVGB', ip: '192.168.1.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [87cbb6a27f16cd11a987dd5ada96a892, findElement {using=xpath, value=/html/body/section/div[1]/div/div[2]/div/div/form/div[1]/input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64265}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64265/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 87cbb6a27f16cd11a987dd5ada96a892 
+2022-09-25 22:40:04,827 ERROR [Log] ordersPage() is Fail! --- no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/section/section/div/div[2]/div/div[1]/div/div[1]/div[2]/ul[2]/li/a"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-I1ODVGB', ip: '192.168.1.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [87cbb6a27f16cd11a987dd5ada96a892, findElement {using=xpath, value=/html/body/section/section/div/div[2]/div/div[1]/div/div[1]/div[2]/ul[2]/li/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64265}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64265/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 87cbb6a27f16cd11a987dd5ada96a892 
+2022-09-25 22:40:29,834 INFO  [Log] openA101() is Successfull! 
+2022-09-25 22:40:30,960 INFO  [Log] socksPage() is Successfull! 
+2022-09-25 22:40:37,511 INFO  [Log] sockDetailPage() is Successfull! 
+2022-09-25 22:40:39,873 INFO  [Log] basketPage() is Successfull! 
+2022-09-25 22:40:43,009 INFO  [Log] loginPage() is Successfull! 
+2022-09-25 22:40:45,257 INFO  [Log] mailPage() is Successfull! 
+2022-09-25 22:41:05,349 ERROR [Log] ordersPage() is Fail! --- element click intercepted: Element <button type="submit" class="button block green js-proceed-button" data-index="1" disabled="">...</button> is not clickable at point (799, 222). Other element would receive the click: <input type="text" name="phone_number" class="js-phone-number" value="" aria-invalid="false">
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-I1ODVGB', ip: '192.168.1.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ead339f09944eef06a4af469c6a0d8a7, clickElement {id=a0c69358-57f7-4e96-ad3e-4d3326435b79}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64358}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64358/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (ead339f09944eef06a4af469c6a0d8a7)] -> xpath: /html/body/section/section/div/div[2]/div/div[1]/div/div[2]/form/div[2]/button]
+Session ID: ead339f09944eef06a4af469c6a0d8a7 
+2022-09-25 22:42:12,074 INFO  [Log] openA101() is Successfull! 
+2022-09-25 22:42:14,545 INFO  [Log] socksPage() is Successfull! 
+2022-09-25 22:42:18,122 INFO  [Log] sockDetailPage() is Successfull! 
+2022-09-25 22:42:23,767 INFO  [Log] basketPage() is Successfull! 
+2022-09-25 22:42:26,904 INFO  [Log] loginPage() is Successfull! 
+2022-09-25 22:42:29,119 INFO  [Log] mailPage() is Successfull! 
+2022-09-25 22:42:49,045 ERROR [Log] ordersPage() is Fail! --- element click intercepted: Element <button type="submit" class="button block green js-proceed-button" data-index="1" disabled="">...</button> is not clickable at point (799, 222). Other element would receive the click: <input type="text" name="phone_number" class="js-phone-number" value="" aria-invalid="false">
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-I1ODVGB', ip: '192.168.1.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c6a6235899a7fef7c32ef25c4b18ca91, clickElement {id=4deae190-9d48-42bd-aeef-86e6631121a0}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64520}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64520/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (c6a6235899a7fef7c32ef25c4b18ca91)] -> xpath: /html/body/section/section/div/div[2]/div/div[1]/div/div[2]/form/div[2]/button]
+Session ID: c6a6235899a7fef7c32ef25c4b18ca91 
+2022-09-25 22:43:49,507 INFO  [Log] openA101() is Successfull! 
+2022-09-25 22:43:50,395 INFO  [Log] socksPage() is Successfull! 
+2022-09-25 22:43:55,658 INFO  [Log] sockDetailPage() is Successfull! 
+2022-09-25 22:43:58,159 INFO  [Log] basketPage() is Successfull! 
+2022-09-25 22:44:01,564 INFO  [Log] loginPage() is Successfull! 
+2022-09-25 22:44:03,836 INFO  [Log] mailPage() is Successfull! 
+2022-09-25 22:44:34,857 INFO  [Log] ordersPage() is Successfull! 

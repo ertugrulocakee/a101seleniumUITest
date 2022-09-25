@@ -9,10 +9,6 @@ import java.time.Duration;
 
 public class HomePageObjectModel  extends  BasePageObjectModel{
 
-    By popupFindProducts = new By.ByCssSelector("div.closePopupPersona");
-
-    By popupFindProductsExit = new By.ByCssSelector("div.closePopupPersona");
-
 
     By popupCookie = By.id("CybotCookiebotDialog");
 
@@ -37,16 +33,6 @@ public class HomePageObjectModel  extends  BasePageObjectModel{
         if (isDisplayed(popupCookie)){
 
             select(allowCookieButton);
-
-        }
-
-    }
-
-    public  void exitFromProductsPopup(){
-
-        if(isDisplayed(popupFindProducts)){
-
-            select(popupFindProductsExit);
 
         }
 

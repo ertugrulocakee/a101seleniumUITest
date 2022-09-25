@@ -43,6 +43,7 @@ public class BasePageObjectModel {
     public  void write(By locator,String text){
 
         findElement(locator).sendKeys(text);
+
     }
 
     public  void  remove(By locator){
