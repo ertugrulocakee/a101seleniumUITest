@@ -2,7 +2,7 @@
 
 Java Maven Projesidir. Selenium, JUnit ve Log4J kütüphaneleri kullanılarak bir WEB UI Otomasyonu oluşturulmuştur. OOP prensiplerine ve Page Object Pattern kullanımına dikkat edilmiştir. WebDriver olarak ChromeDriver kullanılmaktadır.
 
-Çalışmanın videosu aşağıda gösterilmektedir.
+Çalışmanın video linki aşağıda gösterilmektedir.
 
 https://drive.google.com/file/d/18GUTv12CGwHn7tUj5O4QVHCsUx8fTlpY/view?usp=sharing
 
