@@ -15,6 +15,7 @@ public class LoginPageObjectModel extends  BasePageObjectModel{
     public  void  scrollDownAndMoveWithoutIdentity(){
 
         scrollDown();
+        longStop();
         select(moveWithoutIdentityButton);
 
     }

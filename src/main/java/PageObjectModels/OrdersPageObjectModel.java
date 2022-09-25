@@ -71,7 +71,7 @@ public class OrdersPageObjectModel extends  BasePageObjectModel{
 
         shortStop();
 
-        findElement(adressInput).sendKeys(" 34400");
+        findElement(adressInput).sendKeys(" - Gürsel Mahallesi - Kağıthane - İstanbul");
 
         shortStop();
 
