@@ -1,0 +1,15 @@
+2022-09-25 18:40:40,273 INFO  [Log] openA101() is Successfull! 
+2022-09-25 18:40:41,381 INFO  [Log] socksPage() is Successfull! 
+2022-09-25 18:40:46,228 INFO  [Log] sockDetailPage() is Successfull! 
+2022-09-25 18:40:48,942 INFO  [Log] basketPage() is Successfull! 
+2022-09-25 18:40:50,130 INFO  [Log] loginPage() is Successfull! 
+2022-09-25 18:40:52,608 INFO  [Log] mailPage() is Successfull! 
+2022-09-25 18:41:18,654 ERROR [Log] ordersPage() is Fail! --- element click intercepted: Element <button type="submit" class="button block green js-proceed-button" data-index="1" disabled="">...</button> is not clickable at point (799, 222). Other element would receive the click: <input type="text" name="phone_number" class="js-phone-number" value="" aria-invalid="false">
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-I1ODVGB', ip: '192.168.1.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [99dab406a292be64c4ea8c561b4c777b, clickElement {id=fdc1b88d-5f15-4202-a90d-4e0e3c814b4b}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58078}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58078/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (99dab406a292be64c4ea8c561b4c777b)] -> xpath: /html/body/section/section/div/div[2]/div/div[1]/div/div[2]/form/div[2]/button]
+Session ID: 99dab406a292be64c4ea8c561b4c777b 
