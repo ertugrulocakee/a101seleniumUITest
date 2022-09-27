@@ -5,7 +5,6 @@ import org.openqa.selenium.WebDriver;
 
 public class SockDetailPageObjectModel extends BasePageObjectModel{
 
-
     By color = By.xpath("/html/body/section/section[3]/div[2]/div[1]/div/div[3]/div[1]/div[1]/div[2]/div/div[2]/div/div[1]/span");
 
     By addBasket = By.xpath("/html/body/section/section[3]/div[2]/div[1]/div/div[3]/div[2]/div[1]/button");
@@ -22,7 +21,7 @@ public class SockDetailPageObjectModel extends BasePageObjectModel{
 
         if(findElement(color).getText().contains("SİYAH")){
 
-             return true;
+            return true;
 
 
         }
@@ -45,6 +44,7 @@ public class SockDetailPageObjectModel extends BasePageObjectModel{
         select(showBasket);
 
     }
+
 
 
 }

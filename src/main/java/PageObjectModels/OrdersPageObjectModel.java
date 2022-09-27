@@ -1,7 +1,10 @@
 package PageObjectModels;
 
+import com.github.javafaker.Faker;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+
 
 
 public class OrdersPageObjectModel extends  BasePageObjectModel{
@@ -10,7 +13,7 @@ public class OrdersPageObjectModel extends  BasePageObjectModel{
     By adressTitleInput = By.xpath("/html/body/div[1]/div/div[2]/form/div[2]/div/div/label/input");
     By nameInput = By.xpath("/html/body/div[1]/div/div[2]/form/div[3]/div[1]/div/label/input");
     By surnameInput = By.xpath("/html/body/div[1]/div/div[2]/form/div[3]/div[2]/div/label/input");
-    By phoneInput = By.xpath("/html/body/div[1]/div/div[2]/form/div[4]/div/div/label/input");
+    By phoneInput = new By.ByCssSelector("input.js-phone-number");
     By citiesList =  By.xpath("/html/body/div[1]/div/div[2]/form/div[5]/div[1]/div/label/div/select");
     By istanbulOption = By.xpath("/html/body/div[1]/div/div[2]/form/div[5]/div[1]/div/label/div/select/option[2]");
     By townShipList = By.xpath("/html/body/div[1]/div/div[2]/form/div[5]/div[2]/div/label/div/select");
@@ -18,6 +21,7 @@ public class OrdersPageObjectModel extends  BasePageObjectModel{
     By districtList = By.xpath("/html/body/div[1]/div/div[2]/form/div[6]/label/div/select");
     By gurselOption = By.xpath("/html/body/div[1]/div/div[2]/form/div[6]/label/div/select/option[6]");
     By adressInput = By.xpath("/html/body/div[1]/div/div[2]/form/div[7]/label/textarea");
+
     By saveAdressButton = new By.ByCssSelector("button.button.green.js-set-country.js-prevent-emoji");
 
     By saveAndMoveButton = By.xpath("/html/body/section/section/div/div[2]/div/div[1]/div/div[2]/form/div[2]/button");
@@ -36,16 +40,18 @@ public class OrdersPageObjectModel extends  BasePageObjectModel{
 
     public  void addAdress(){
 
+        Faker faker = new Faker();
+
         averageStop();
         select(addAdressButton);
         shortStop();
-        findElement(adressTitleInput).sendKeys("Ertuğrul Ocak-EV");
+        findElement(adressTitleInput).sendKeys("Ev Adresim");
         shortStop();
-        findElement(nameInput).sendKeys("Ertuğrul");
+        findElement(nameInput).sendKeys(faker.name().firstName());
         shortStop();
-        findElement(surnameInput).sendKeys("Ocak");
+        findElement(surnameInput).sendKeys(faker.name().lastName());
         shortStop();
-        findElement(phoneInput).sendKeys("5383227574");
+        findElement(phoneInput).sendKeys(faker.phoneNumber().subscriberNumber(11));
         shortStop();
         select(citiesList);
         shortStop();
@@ -60,23 +66,17 @@ public class OrdersPageObjectModel extends  BasePageObjectModel{
         select(gurselOption);
         shortStop();
 
-        findElement(adressInput).sendKeys("İğdeli Bahçe Sokak - No:07 - Daire: 09");
-
-        select(saveAdressButton);
+        findElement(adressInput).sendKeys(faker.address().fullAddress());
 
         shortStop();
 
-        findElement(adressInput).sendKeys(" - Posta Kodu : 34400");
-
-        shortStop();
-
-        select(saveAdressButton);
+        findElement(saveAdressButton).sendKeys(Keys.ENTER);
 
         averageStop();
 
         select(saveAndMoveButton);
 
-        longStop();
+        averageStop();
 
         select(garantiPayButton);
 

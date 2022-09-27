@@ -28,7 +28,6 @@ public class HomePageObjectModel  extends  BasePageObjectModel{
 
     public  void allowPopup(){
 
-        longStop();
 
         if (isDisplayed(popupCookie)){
 
@@ -63,7 +62,6 @@ public class HomePageObjectModel  extends  BasePageObjectModel{
         wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
         wait.until(ExpectedConditions.visibilityOfElementLocated(underKneeSocks)).click();
-
 
 
     }

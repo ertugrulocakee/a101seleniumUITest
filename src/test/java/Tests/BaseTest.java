@@ -32,7 +32,7 @@ public class BaseTest {
     @AfterAll
     public  void  tearDown(){
 
-         driver.quit();
+        driver.quit();
 
     }
 

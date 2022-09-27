@@ -20,7 +20,7 @@ public class SocksPageObjectModel extends  BasePageObjectModel{
 
     public  boolean isOnSocksPage(){
 
-         return  isDisplayed(favIcon);
+        return  isDisplayed(favIcon);
 
     }
 

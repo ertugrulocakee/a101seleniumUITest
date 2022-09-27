@@ -1,5 +1,6 @@
 package PageObjectModels;
 
+import com.github.javafaker.Faker;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -16,8 +17,10 @@ public class MailPageObjectModel extends  BasePageObjectModel{
 
     public void writeEmailAndMove(){
 
+        Faker faker = new Faker();
+
         shortStop();
-        findElement(inputEmail).sendKeys("ertugrulocak@gmail.com");
+        findElement(inputEmail).sendKeys(faker.internet().emailAddress());
         shortStop();
         select(moveWithEmailButton);
 
