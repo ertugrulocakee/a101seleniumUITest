@@ -5,10 +5,12 @@ Java Maven Projesidir. Selenium, JUnit ve Log4J kütüphaneleri kullanılarak bi
 Çalışmanın videosu aşağıda gösterilmektedir.
 
 
-https://user-images.githubusercontent.com/83928393/192488280-d58c32f2-7ff7-49e3-a962-e231d6c53d03.mp4
+https://user-images.githubusercontent.com/83928393/192572345-8d4a0660-ea85-4fbb-ad71-55bb38f6e8ac.mp4
+
 
 
 Çalışmanın test sonuçları aşağıda gösterilmektedir.
 
 
-![testresults](https://user-images.githubusercontent.com/83928393/192155071-9e135014-facf-4c2a-a20c-865e3079917f.png)
+![TestResults](https://user-images.githubusercontent.com/83928393/192572415-7fe8817a-4d1a-4946-9c09-d475422e8b4a.png)
+
