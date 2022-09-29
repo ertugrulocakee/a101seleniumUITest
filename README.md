@@ -1,6 +1,7 @@
 # a101seleniumUITest
 
 Java Maven Projesidir. Selenium, JUnit ve Log4J kütüphaneleri kullanılarak bir WEB UI Otomasyonu oluşturulmuştur. OOP prensiplerine ve Page Object Pattern kullanımına dikkat edilmiştir. WebDriver olarak ChromeDriver kullanılmaktadır.
+Ayrıyeten a101 mobil uygulamasının da test otomasyonunu gerçekleştirdim. Göz atmak için => https://github.com/ertugrulocakee/A101AndroidAppiumTest 
 
 Çalışmanın videosu aşağıda gösterilmektedir.
 
