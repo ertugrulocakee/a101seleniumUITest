@@ -3,6 +3,20 @@
 Java Maven Projesidir. Selenium, JUnit ve Log4J kütüphaneleri kullanılarak bir WEB UI Otomasyonu oluşturulmuştur. OOP prensiplerine ve Page Object Pattern kullanımına dikkat edilmiştir. WebDriver olarak ChromeDriver kullanılmaktadır.
 Ayrıyeten a101 Android mobil uygulamasının da test otomasyonunu gerçekleştirdim. Göz atmak için => https://github.com/ertugrulocakee/A101AndroidAppiumTest 
 
+
+- Senaryoya üye kaydı oluşturmadan devam edilecek.
+- Giyim--> Aksesuar--> Kadın İç Giyim-->Dizaltı Çorap bölümüne girilir.
+- Açılan ürünün siyah olduğu doğrulanır.
+- Sepete ekle butonuna tıklanır.
+- Sepeti Görüntüle butonuna tıklanır.
+- Sepeti Onayla butonuna tıklanır.
+- Üye olmadan devam et butonuna tıklanır.
+- Mail ekranı gelir.
+- Sonrasında adres ekranı gelir. Adres oluştur dedikten sonra ödeme ekranı gelir.
+- Siparişi tamamla butonuna tıklayarak, ödeme ekranına gidildiği ,doğru ekrana yönlendiklerini kontrol edecekler.
+
+
+
 Çalışmanın videosu aşağıda gösterilmektedir.
 
 
